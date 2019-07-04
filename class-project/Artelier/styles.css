@@ -1,0 +1,267 @@
+body    {
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: column;
+}   
+
+#banner {
+        width:100%;
+        height:120px;
+        display: flex;
+        position: sticky;
+        top:o;
+}
+.title  {
+    width:20%;
+    font-family: 'Faster One', cursive;
+    color: black;
+    font-size: 60px;
+    margin-left:50px;
+    padding:0;
+    margin-top: 20px;
+}
+span    {
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 60px;
+    //*text-decoration: underline;*//
+    margin-left: 30px;
+    margin-top:0;
+    padding:0;
+    //*border-top: 5px solid black;*//
+}
+.search {
+        width:80%;
+        margin-top:20px;
+    
+}
+
+#search-text-input{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:right;
+    height:20px;
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+    width:185px; 
+}
+  
+#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:right;
+    height:30px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+}
+  
+#button-holder img{
+    margin:5px;
+    width:20px; 
+}
+#links  {
+        width:100%;
+        background-color: red;
+        height:70px;
+        position:relative;
+}
+nav     {
+    margin:0 auto;
+    text-align:center;
+}       
+
+ul      {
+    display: inline-block;
+}
+li      {
+    display: inline;
+    border-right:1px solid grey;
+    padding:10px;
+    
+}
+nav>ul>li>a     {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;        
+    padding: 30px;
+    font-size: 18px;
+}
+nav>ul>li>a:hover        {
+            color: lightslategray;
+            text-decoration: none;
+            box-shadow: #e5e5e5;
+            //*border-right: 1px solid black;*//
+
+}
+#container  {
+        width:100%;
+    
+}
+h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width:150px;
+        color:darkgray;
+        background-color: black;
+        font-size: 30px;
+        padding:5px;
+}
+.photo  {
+        width:50%;
+        float:left;
+}
+.content   {
+        width:50%;
+        float:right;
+        
+}
+   
+.pencilart   {
+        border-radius:30px;
+        padding:20px;
+        width:550px;
+        height:550px;
+        margin-top:20px;
+}
+p{
+        font-family: cursive;
+        line-height: 1.5;
+}
+ol>li   {
+        font-family: cursive;
+        display:block;
+        background-color:rgba(248, 77, 77, 0.719);
+        line-height:1.5;
+        color:black;
+        padding:5px;
+        margin-top: 10px;
+        width:60%;
+        padding-left:40px;    
+}
+ol>li::before   {
+        margin-right: 10px;
+        margin-left: 10px;
+}
+
+/*section two styles*/
+
+#photography {
+        width:100%;
+        display: flex;
+        margin-top:50px;
+        
+}
+#camera {
+        position:relative;
+}
+#camera>.text   {
+        position: static;
+        top:50px;
+        left:30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:black;
+        padding:10px;
+        width:300px;
+        opacity: 0.5;
+        color:white;
+}
+
+h3  {
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.photography    {
+        width:450px;
+        float:right;
+}
+#projects   {
+        width:100%;
+        /* position: fixed; */
+}
+#projects>h2{
+        width:100px;
+        left:20px;
+}
+.bigpic {
+        width:50%;
+}
+
+.bigpic>img {
+        width:580px;
+        border-radius:20px;
+        
+}
+.text{
+    position:relative;
+    background-color:black;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    left:10px;
+    bottom:280px;
+    opacity:0.8;
+    text-align: center;
+    padding:10px;
+    line-height: 2em;
+    width: 170px;
+}
+#writing>.text{
+        position:absolute;
+    background-color:black;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    left:10px;  
+    opacity:0.8;
+    text-align: center;
+    padding:10px;
+    line-height: 2em;
+    bottom: 20px;
+}
+.smallpic   {
+        width:50%;
+        flex:wrap;
+
+}
+.smallpic>img   {
+        width:250px;
+        height: 180px;
+        padding:0px;
+        border-radius:10px;
+       /*border-image: url('https://www.publicdomainpictures.net/pictures/50000/velka/camera-film-137284627241S.jpg') 25 25 round;*//
+}
+#writing {
+        width:100%;
+        display: flex;
+        margin-top:50px;
+}
+#footer { 
+        width:100%;
+        height:10px;
+        background-color:black;
+        color:lightgray;
+        text-align:center;
+        padding:10px;
+} 
+
+#form   {
+        margin-left:20px;
+        margin-top:20px;
+}
+#icons  {
+        widows: 100%;
+        height:150px;
+        position:relative;
+        background-color:darkgray;
+        text-align: center;
+        margin-top:10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 2em;
+        font-size: 20px;
+}
